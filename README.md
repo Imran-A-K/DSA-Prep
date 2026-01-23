@@ -55,7 +55,7 @@ From the repo root:
   1) Run setup script
 ```bash
    chmod +x Setup/setup_mac.sh
-   bash Setup/setup_mac.sh
+   Setup/setup_mac.sh
 
   2.	Activate the virtual environment
         source .venv/bin/activate
