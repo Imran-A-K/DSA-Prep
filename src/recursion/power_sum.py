@@ -9,7 +9,7 @@ Power Sum - Let’s define a peculiar type of array in which each element is eit
 
 another example - [1,2,[7,[3,4],2]] = 1 + 2 +( 7+(3+4)^3+2)^2
 """
-#time complexity is O(N) + space complexity O(D) D = the maximum depth of the call stack
+#time complexity is O(N) - ( here N is total number of elemetns including array like for this case [1,2,[7,[3,4],2]] the N is 8) + space complexity O(D) D = the maximum depth of the call stack
 
 
 def power_sum(array, power=1):
